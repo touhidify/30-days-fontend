@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!-- It tells the browser:
+
+“Hey, this is an HTML5 document!” -->
+
+<!-- clt + u for see code in browser -->
+
+<!-- Block elements: Take full width, start on a new line.
+Examples: <div>, <p>, <h1>
+
+Inline elements: Take only as much space as needed, stay in the same line.
+Examples: <span>, <a>, <strong> -->
+
+<html>
+    <head>
+        <title>This is html5</title>
+    </head>
+    <br />
+    <a href="blog.html">Goto blog page</a>
+    <body>
+        <h1>Heading 1</h1>
+        <h2>Hesding 2</h2>
+        <h3>Heading 3</h3>
+        <p>
+            Lorem ipsum dolor <em>sit amet consectetur adipisicing</em> elit.
+            Eum tenetur molestias earum cupiditate animi repudiandae sunt
+            adipisci error, at doloribus, perferendis vel vero odio quia culpa
+            eveniet sapiente ullam
+            <a href="http://google.com" target="_self">maiores!</a> Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Ipsam, natus.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet <strong>adipisicing</strong> elit. Eum
+            tenetur molestias earum cupiditate animi repudiandae sunt adipisci
+            error, at doloribus, perferendis vel vero odio quia culpa eveniet
+            sapiente ullam maiores! Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Ipsam, natus.
+        </p>
+        <ul>
+            <li>list 1</li>
+            <li>list 2</li>
+            <li>list 3</li>
+        </ul>
+        <ol>
+            <li>list 1</li>
+            <li>list 2</li>
+            <li>list 3</li>
+        </ol>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>touhid</th>
+                    <th>touh@gmail.com</th>
+                    <th>26</th>
+                </tr>
+                <tr>
+                    <th>Jon</th>
+                    <th>hon@gmail.com</th>
+                    <th>45</th>
+                </tr>
+                <tr>
+                    <th>kjm</th>
+                    <th>kjm@gmail.com</th>
+                    <th>22</th>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+        <hr />
+        <br />
+
+        <form action="process.php" method="POST">
+            <div>
+                <label for="namef">First Name</label>
+                <input
+                    type="text"
+                    name="firt_name"
+                    id="namef"
+                    placeholder="Enter the first name"
+                />
+            </div>
+            <br />
+            <div>
+                <label for="namel">Last Name</label>
+                <input type="text" name="last_name" id="namel" />
+            </div>
+            <br />
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="last_name" id="email" />
+            </div>
+            <br />
+            <div>
+                <label for="message">Email</label>
+                <textarea name="message" id="message"></textarea>
+            </div>
+            <br />
+            <div>
+                <label>Gender</label>
+                <select name="gender" id="">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <br />
+            <div>
+                <label for="age">Age</label>
+                <input type="number" name="age" value="30" />
+            </div>
+            <br />
+            <div>
+                <label for="date">Date</label>
+                <input type="date" />
+            </div>
+            <br />
+            <input type="submit" name="submit" value="submit" />
+        </form>
+        <br />
+        <button>Click Me</button>
+        <br />
+
+        <br />
+        <a href="img/simple_image.jpeg">
+            <img
+                src="img/simple_image.jpeg"
+                alt="img"
+                style="height: 250px; width: 300px"
+            />
+        </a>
+        <br />
+        <blockquote>
+            Lorem ipsum dolor sit
+            <cite>
+                <abbr title="This is the awousam thing "
+                    >necessitatibus</abbr
+                ></cite
+            >
+            amet consectetur adipisicing elit. Autem perspiciatis commodi
+            officia molestias iste eos nihil necessitatibus adipisci illum,
+            error consequuntur aut explicabo omnis qui distinctio laborum quos
+            quisquam accusamus.
+        </blockquote>
+
+        <div style="margin-top: 500px"></div>
+    </body>
+</html>
