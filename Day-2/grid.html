@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CSS Grid</title>
+        <link rel="stylesheet" href="style-grid.css" />
+        <style>
+            .wrapper {
+                display: grid;
+                grid-template-columns: 40% 30% 30%;
+                grid-column-gap: 2px;
+                grid-row-gap: 2px;
+            }
+
+            .wrapper > div {
+                background: #eee;
+
+                padding: 1em;
+            }
+            .wrapper > div:nth-child(odd) {
+                background: #ddd;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Deserunt blanditiis, expedita ab rem delectus nulla
+                necessitatibus enim laboriosam obcaecati voluptas tempora magnam
+                debitis optio deleniti aperiam minus iusto porro. Ut?
+            </div>
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laboriosam, tempora. Hic, saepe voluptas expedita suscipit velit
+                qui, beatae obcaecati quos, magnam cum architecto inventore
+                reiciendis tenetur esse corporis laudantium. Enim!
+            </div>
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Deserunt blanditiis, expedita ab rem delectus nulla
+                necessitatibus enim laboriosam obcaecati voluptas tempora magnam
+                debitis optio deleniti aperiam minus iusto porro. Ut?
+            </div>
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laboriosam, tempora. Hic, saepe voluptas expedita suscipit velit
+                qui, beatae obcaecati quos, magnam cum architecto inventore
+                reiciendis tenetur esse corporis laudantium. Enim!
+            </div>
+        </div>
+    </body>
+</html>
